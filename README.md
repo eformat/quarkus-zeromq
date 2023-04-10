@@ -16,5 +16,7 @@ Run the client
 jbang src/main/java/org/acme/HelloWorldClient.java 
 ```
 
-
-
+Build a native server
+```bash
+mvn package -Pnative
+```
